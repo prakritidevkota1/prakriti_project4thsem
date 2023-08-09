@@ -1,0 +1,220 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    
+    
+    height: 100vh;
+
+}
+.main-container{
+    background-color: rgba(236, 201, 112, 0.99);
+    height: 40px;
+   z-index: 100;
+}
+.main-container ul{
+    display:flex;
+    justify-content: space-around;
+}
+.midinfo{
+    display: flex;
+
+}
+.midinfo a{
+    text-decoration: none;
+    color:rgb(11, 2, 2);
+
+}
+.midinfo li{
+    list-style-type: none;
+    margin:10px;
+}
+.midinfo li a{
+    font-weight: 600;
+}
+
+.signin-login{
+    display:flex;
+}
+.signin-login a{
+    text-decoration: none;
+    color:rgb(17, 14, 14);
+    font-weight: 600;
+    border:2px solid black;
+    border-radius: 10%;
+    padding: 4px;
+    transition:ease 2px;
+}
+
+.signin-login li{
+    list-style-type: none;
+    margin:10px;
+}
+
+.logo li{
+    list-style: none;
+    margin:10px;
+    color:rgb(15, 13, 13);
+    font-weight: 600;
+}
+
+
+/* now homepage design star from here */
+.inner-maincontainer{
+    display:flex;
+    background-color: rgb(6, 3, 5);
+    height: 100vh;
+
+}
+
+.info-container-img {
+
+display:flex;
+flex-direction: column;
+justify-content: end;
+width:80%;
+height:80%;
+margin: top 1%;
+
+
+}
+
+.hi{
+    text-align: center;
+    margin-top: 250px;
+    text-shadow: 0cap;
+}
+.hi .text{
+    color: rgb(9, 8, 8);
+    display: inline-block;
+    border-right: 2px solid black;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2s,
+    cursor .3s step-end infinite alternate;
+
+}
+@keyframes cursor{
+    50%{
+        border-color: transparent;
+    }
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
+h1{
+    color: rgb(19, 11, 11);
+    font-size: 56px;
+    text-shadow: 0cm;
+}
+h2{
+    color: rgb(22, 17, 17);
+    font-size: 36px;
+    text-shadow: 0cm;
+}
+.cta{
+    background-color: rgb(212, 179, 101);
+
+    padding: 5px;
+}
+/* .info-container-img img{
+    width:80%;
+    height: 80%;
+    position:absolute;
+    right:0;
+    width:50%;
+   
+   
+  
+   
+    
+    
+/* } */
+/* .info-container-img img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+
+} */ */
+.info-container1{
+    background: rgba(255, 255, 255, 0.22);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(235, 229, 229, 0.1);
+backdrop-filter: blur(4.2px);
+-webkit-backdrop-filter: blur(4.2px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+margin:90px 10px;
+height: 60vh;
+width:50%;
+text-align: center;
+color:white;
+
+
+}
+.info-container1 h2{
+    color:rgb(231, 238, 238)
+}
+
+.container-2{
+    background-image: url("../image/hellohi.webp");
+    height: 100vh;
+  
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;  
+    
+   
+  
+
+}
+.feature-section {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .clothes-picture{
+    display: flex;
+    justify-content: space-between;
+  }
+  .cloth{
+    width: 25%;
+
+  }
+  .cloth img{
+
+    width: 300px;
+    /* border-radius: 10px; */
+  }
+  .btn{
+    padding: 10px;
+    background-color: rgb(231, 188, 82);
+    color: rgb(22, 20, 20);
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid rgb(231, 188, 59);
+    cursor: pointer;
+            }
+            .featured{
+                text-align: center;
+                padding: 15px;
+                font-size: 28px;
+                text-decoration: underline;
+            }
+            .instagram{
+                text-align: center;
+                
+            }
+            .map{
+                display:flex ;
+                justify-content:right ;
+            }
+
+           
